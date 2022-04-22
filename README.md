@@ -4,4 +4,4 @@
 <h4>Install</h4>
 <p>Run the following code in R/RStudio to install the package:</p>
 
- <!#install.packages("devtools")>
+ #install.packages("devtools")
