@@ -1,0 +1,26 @@
+Package: MmCMS
+Type: Package
+Title: Calling CMS for mouse tissue
+Version: 0.1.0
+Author: c(person("Raheleh", "Amirkhah", 
+                    email = "r.amirkhah@qub.ac.uk",
+                    role = c("aut", "cre")),
+            person("Philip D.", "Dunne"
+                    email = "p.dunne@qub.ac.uk",
+                    role = c("aut")))
+Maintainer: Raheleh Amirkhah <r.amirkhah@qub.ac.uk>
+Description: CMS classification based on pre-defined subtype templates for mouse tissues.
+Depends:R (>= 3.5), GSVA (>= 1.26.0)
+Imports:GSVA (>= 1.26.0), Biobase, graphics, stats, utils
+Suggests: commonmark, knitr, parallel, snow, testthat, xml2
+biocViews:
+    Software,
+    GeneExpression,
+    StatisticalMethod,
+    Classification
+LazyData: TRUE
+Encoding: UTF-8
+ByteCompile: TRUE
+License: GPL-3
+RoxygenNote: 7.1.2
+VignetteBuilder: knitr
