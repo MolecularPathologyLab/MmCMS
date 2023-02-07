@@ -51,7 +51,7 @@ MmCMS <- function(emat, templates=MmCMS::template.CMS.A, Genesets = c("template.
 
   if (ncol(emat) < 30) warnings("few samples - high prediction variance",
                                 call.=FALSE)
-
+  
 
   ### Get the GO-BP gene set, saved from MSigDB OR optionC geneset
   if(Genesets == "template.CMS.B") {
@@ -110,7 +110,13 @@ MmCMS <- function(emat, templates=MmCMS::template.CMS.A, Genesets = c("template.
   # sanity check III - whether any FDR-values are above .1
   if (nPerm > 500) if (min(res$FDR) > .1)
     warning("low-confidence predictions - check input",call.=FALSE)
-
+    
+  ### default FDR = 0.05
+  if (FDR < 0 | FDR > 1) {
+    stop('Set threshold between 0 and 1')
+  } else {
+    FDR <- FDR}
+    
   return(res)
 }
 
