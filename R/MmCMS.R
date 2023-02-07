@@ -111,12 +111,6 @@ MmCMS <- function(emat, templates=MmCMS::template.CMS.A, Genesets = c("template.
   if (nPerm > 500) if (min(res$FDR) > .1)
     warning("low-confidence predictions - check input",call.=FALSE)
     
-  ### default FDR = 0.05
-  if (FDR < 0 | FDR > 1) {
-    stop('Set threshold between 0 and 1')
-  } else {
-    FDR <- FDR}
-    
   return(res)
 }
 
