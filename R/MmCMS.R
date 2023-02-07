@@ -93,7 +93,7 @@ MmCMS <- function(emat, templates=MmCMS::template.CMS.A, Genesets = c("template.
   ### ssGSEA
   emat <- GSVA::gsva(emat, geneset, max.sz = Inf, ## min.size default as it may lead to no gene set scores
                   verbose = F, method = "ssgsea", parallel.sz = 4,
-                  ssgsea.norm = F)
+                  ssgsea.norm = T)
 
 
   # scale and center data, basically a wrapper for scale() function
