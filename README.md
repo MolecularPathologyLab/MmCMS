@@ -8,3 +8,9 @@
 
 <code>#install.packages("devtools")</code><br>
 <code>#devtools::install_github("MolecularPathologyLab/MmCMS")</code>
+<h3>Citation</h3>
+<p>The PDSclassifier R package is developed by the DunneLab. Please contact Sudhir Malla (Sid) for any package related issues, questions, or suggestions.</p>
+
+<h4>You can cite as such:</h4>
+<p>Amirkhah, R. et al. MmCMS: mouse models’ consensus molecular subtypes of colorectal cancer. Br J Cancer 128, 1333–1343 (2023).</p>
+<p>https://www.nature.com/articles/s41416-023-02157-6</p>
