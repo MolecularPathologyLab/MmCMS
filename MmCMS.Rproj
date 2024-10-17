@@ -12,9 +12,12 @@ Encoding: UTF-8
 RnwWeave: Sweave
 LaTeX: pdfLaTeX
 
+<<<<<<< HEAD
 AutoAppendNewline: Yes
 StripTrailingWhitespace: Yes
 
+=======
+>>>>>>> e02130abaa8797308b4b1ce62c5925e3193d08fb
 BuildType: Package
 PackageUseDevtools: Yes
 PackageInstallArgs: --no-multiarch --with-keep.source
