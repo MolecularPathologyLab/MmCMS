@@ -5,7 +5,7 @@
 
 # good practice to enable silencing
 .onAttach <- function (libname, pkgname) {
-  packageStartupMessage("MmCMS v0.1.0")
+  packageStartupMessage("MmCMS v0.1.1")
 }
 
 # internal utility functions for consistent read and write

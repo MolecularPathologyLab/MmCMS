@@ -39,8 +39,6 @@
 MmCMS <- function(emat, templates=MmCMS::template.CMS.A, Genesets = c("template.CMS.B", "template.CMS.C", "template.CMS.A"),
                   nPerm=1000, seed=NULL,
                   FDR=0.05, doPlot=TRUE, verbose=TRUE) {
-
-
   # checkInput ##############################################################
 
   # check datatype input and try to coerce to matrix
