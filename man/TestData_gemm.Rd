@@ -5,7 +5,7 @@
 \alias{TestData_gemm}
 \title{Expression profile of GEMMs}
 \format{
-An object of class \code{data.frame} with 24496 rows and 18 columns.
+An object of class \code{matrix} (inherits from \code{array}) with 24751 rows and 18 columns.
 }
 \usage{
 TestData_gemm

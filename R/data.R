@@ -31,7 +31,6 @@
 #' re <- MmCMS(emat, templates=MmCMS::template.CMS.B, Genesets = c("template.CMS.B"), seed=120)
 "template.CMS.B"
 
-
 #' Mouse CMS template (option C)
 #' @details CMS prediction template for NTP method. Marker genes were identified through a more complicated approach.
 #' A combined pathway system encompassing multiple biological and histological signalling cascades.
@@ -56,4 +55,6 @@
 #' @details GO_BP terms from msigdb
 "GO.BP.list_mus"
 
-
+#' option.C geneset for mouse
+#' @details gene set includes a combined pathway system
+"option.C.geneset.list_mus"

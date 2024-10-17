@@ -1,6 +1,6 @@
 Package: MmCMS
 Type: Package
-Title: CMS-based Molecular Subtyping for Mouse Tissue
+Title: CMS-based Molecular Subtyping for CRC Mouse Tissue
 Version: 0.1.1
 Authors@R: c(person("Raheleh", "Amirkhah", 
                     email = "r.amirkhah@qub.ac.uk",
@@ -9,7 +9,7 @@ Authors@R: c(person("Raheleh", "Amirkhah",
                     email = "p.dunne@qub.ac.uk",
                     role = c("aut")))
 Maintainer: Raheleh Amirkhah <r.amirkhah@qub.ac.uk>
-Description: This package performs CMS (Consensus Molecular Subtypes) classification on mouse tissues using pre-defined subtype templates.It supports ssGSEA score calculations with GSVA, compatible with both older GSVA versions (>= 1.26.0) and the latest updates (>= 1.48.0).
+Description: This package performs CMS (Consensus Molecular Subtypes) classification on mouse tissues using three pre-defined subtype templates.
 Depends: R (>= 3.5)
 Imports: BiocParallel,
          GSVA (>= 1.26.0),
@@ -27,4 +27,5 @@ Encoding: UTF-8
 ByteCompile: TRUE
 License: GPL-3
 RoxygenNote: 7.3.2
-Config/testthat/edition: 3
+URL: https://github.com/MolecularPathologyLab/MmCMS
+BugReports: https://github.com/MolecularPathologyLab/MmCMS/issues

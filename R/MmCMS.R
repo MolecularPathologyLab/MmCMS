@@ -40,11 +40,10 @@ MmCMS <- function(emat, templates=MmCMS::template.CMS.A, Genesets = c("template.
                   nPerm=1000, seed=NULL,
                   FDR=0.05, doPlot=TRUE, verbose=TRUE) {
 
-
   # checkInput ##############################################################
 
   # check datatype input and try to coerce to matrix
-  if (class(emat) == "data.frame") emat <- as.matrix(emat)
+  if (inherits(emat, "data.frame")) emat <- as.matrix(emat)
   if (is.vector(emat)) emat <- matrix(emat, dimnames = list())
   if (is.null(rownames(emat))) stop("missing Ensembl id rownames(emat)")
 

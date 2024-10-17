@@ -5,7 +5,7 @@
 \alias{template.CMS.A}
 \title{Mouse CMS template (option A)}
 \format{
-An object of class \code{data.frame} with 424 rows and 2 columns.
+An object of class \code{data.frame} with 533 rows and 2 columns.
 }
 \usage{
 template.CMS.A
